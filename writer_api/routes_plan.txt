@@ -1,0 +1,11 @@
+--get requests
+    get all chapter titles : app.get('/api/v1/chapters)
+    get one chapter        : app.get('/api/v1/chapters/:id)
+    get user               : app.get('/api/v1/users/:id')
+--post
+    post new chapter       : app.post('/api/v1/chapters/:id')
+    post new user          : app.post('/api/v1/users/:id')
+--update
+    put/patch chapter      : app.patch('/api/v1/chapters/:id')
+--delete
+    delete chapter         : app.delete('/api/v1/chapters/:id')
